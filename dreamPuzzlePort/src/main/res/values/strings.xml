@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">DreamPuzzle (Portrait)</string>
+	<string translatable="false" name="theme_code">hall</string>
+	<string translatable="false" name="flurry_api_key">DF379J53KFNWVNJKC87T</string>
+    <string translatable="false" name="ad_banner_id">ca-app-pub-9889936371937089/2684660057</string>
+	<string translatable="false" name="ad_interstitial_id">ca-app-pub-9889936371937089/2688872059</string>
+	<string translatable="false" name="has_ads">true</string>
+	<string translatable="false" name="is_debug">false</string>
+	<!--
+	<string translatable="false" name="is_adult">false</string>
+	<string translatable="false" name="has_google">true</string>
+	-->
+</resources>

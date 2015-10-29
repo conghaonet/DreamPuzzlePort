@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/grid_fragment_root_layout" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+	<GridView 
+	    android:id="@+id/grid_fragment_grid_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top"
+		android:stretchMode="columnWidth"
+		android:numColumns="@integer/pics_grid_columns"
+		android:listSelector="@null"
+		android:background="#00000000"
+	/>
+	<ProgressBar
+	    android:id="@+id/grid_fragment_progress_bar"
+	    style="?android:attr/progressBarStyleLarge"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_gravity="center"
+	    android:background="#00FFFFFF"/>
+</FrameLayout>

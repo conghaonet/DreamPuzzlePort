@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">梦幻拼图Util</string>
+    
+    <string name="main_actionbar_update">更新</string>
+    <string name="main_actionbar_settings">设置</string>
+	<string name="main_button_play_text">开&#160;&#160;始</string>
+	<string name="main_button_continue_text">继&#160;&#160;续</string>
+
+	<string name="puzzle_sub_title">移动:&#160;%1$d&#160;&#160;完成:&#160;%2$d/%3$d</string>
+	<string name="puzzle_time_label">时间:&#160;</string>
+	<string name="puzzle_hints_label">提示</string>
+	<string name="puzzle_hints_view_label">原图 x&#160;</string>
+	<string name="puzzle_hints_move_label">移动 x&#160;</string>
+		
+	<string name="FINISHED_LEVEL_LABEL">Level:&#160;</string>
+	<string name="FINISHED_PIECES_LABEL">Pieces:&#160;</string>
+	<string name="FINISHED_PLAYER">PLAYER</string>
+	<string name="FINISHED_BEST">BEST</string>
+	<string name="FINISHED_WALLPAPER_SUCCESSFULLY">已设置壁纸</string>
+	<string name="finished_steps">MOVES:&#160;</string>
+	<string name="finished_time">TIME:&#160;</string>
+
+	<string name="finished_difficulty_label">难度:&#160;</string>
+	<string name="finished_player_label">本次成绩</string>
+	<string name="finished_record_label">最好成绩</string>
+	<string name="finished_newrecord_label">新纪录</string>
+	<string name="finished_time_label">时间:&#160;</string>
+	<string name="finished_moves_label">移动:&#160;</string>
+	
+	<string name="preview_difficulty_label">难度:&#160;</string>
+	<string name="preview_record_label">纪录:&#160;</string>
+	<string name="preview_norecord_label">无纪录</string>
+	<string name="preview_menu_btn_allrecords">纪录</string>
+	<string name="preview_menu_btn_wallpaper">壁纸</string>
+	<string name="preview_menu_btn_share">分享</string>
+	
+	<string name="records_header_difficulty">难度</string>
+	<string name="records_header_time">用时</string>
+	<string name="records_header_moves">移动</string>
+	<string name="records_norecords">没有纪录 :(</string>
+					
+	<string name="DIALOG_RATE_MSG">\n如果您喜欢我们的游戏，请支持新功能的开发给它一个5星评级！\n</string>
+    <string name="DIALOG_EXIT_MSG">\n确认退出?\n</string>
+    <string name="NO_SDCARD">未找到存储卡。</string>
+    <string name="SHARE_TEXT">我很高兴和你分享这个软件。\n软件链接：\n</string>
+	<string name="DIALOG_CUSTOM_GRID_DELETE_TITLE">删除</string>
+	<string name="DIALOG_CUSTOM_GRID_DELETE_MSG">确认删除 ?</string>
+	<string name="CUSTOM_EDITPIC_ZOOM_RECT_TOAST">(通过双指缩放矩形透明矩形，以确定剪裁区域。)</string>
+	<string name="OPTIONS_NEWGAME_GRID_TITLE">选项</string>
+	<string name="OPTIONS_NEWGAME_GRID_ITEM_DELETE">删除图片目录</string>
+	<string name="OPTIONS_NEWGAME_GRID_ITEM_CONTINUE_DOWNLOADING">继续下载</string>
+	<string name="OPTIONS_NEWGAME_GRID_ITEM_PLAY">浏览</string>
+	<string name="OPTIONS_NEWGAME_GRID_ITEM_REBUILD">修复出错的图片目录</string>
+	<string name="DIALOG_NEWGAME_GRID_DELETE_TITLE">删除</string>
+	<string name="DIALOG_NEWGAME_GRID_DELETE_MSG">删除图片目录的同时也将删除相关的游戏记录，确认删除？</string>
+    <!-- for multi importing of custom -->
+	<string name="CUSTOM_FOLDER_IMPORT_DIALOG_TITLE">导入图片</string>
+	<string name="CUSTOM_FOLDER_IMPORT_DIALOG_MSG">处理中 &#8230;</string>
+	<string name="CUSTOM_PICS_DELETE_DIALOG_TITLE">删除图片</string>
+	<string name="CUSTOM_PICS_DELETE_DIALOG_MSG">处理中 &#8230;</string>
+	<string name="CUSTOM_SELECTED_TITLE">已选</string>
+	<string name="CUSTOM_ACTIONBAR_SELECT_ALL">全选</string>
+	<string name="CUSTOM_ACTIONBAR_DESELECT_ALL">取消全选</string>
+	<string name="ACTIONBAR_ADD">添加</string>
+	<string name="ACTIONBAR_DELETE">删除</string>
+	<string name="ACTIONBAR_SAVE">保存</string>
+	<string name="ACTIONBAR_BATCH">批量添加</string>
+	<string name="ACTIONBAR_CAMERA">照相机</string>
+	<string name="ACTIONBAR_MANUALLY">手工剪裁</string>
+	<string name="DIALOG_APKUPDATE_TITLE">更新</string>
+	<string name="DIALOG_APKUPDATE_MSG">升级到新版本</string>
+	<string name="PROGRESS_APK_DOWNLONGING_TITLE">更新</string>
+	<string name="PROGRESS_APK_DOWNLONGING_MSG">下载中 &#8230;</string>
+	<!-- new settings activity -->
+	<string name="PREF_TITLE">设置</string>
+	<string name="PREF_UPDATE_CATEGORY_TITLE">更新</string>
+	<string name="PREF_UPDATE_TITLE">有新版本可更新。</string>
+	<string name="PREF_UPDATE_SUMMAY">点击更新。</string>
+	<string name="PREF_GENERAL">一般</string>
+	<string name="PREF_SKIN_TITLE">皮肤</string>
+	<string name="PREF_BACKGROUND_MUSIC">背景音乐</string>
+	<string name="PREF_BACKGROUND_MUSIC_SUMMARY_ON">播放背景音乐。</string>
+	<string name="PREF_BACKGROUND_MUSIC_SUMMARY_OFF">关闭背景音乐。</string>
+	<string name="PREF_SOUND_EFFECT">音效</string>
+	<string name="PREF_SOUND_EFFECT_SUMMARY_ON">移动图片后播放音效。</string>
+	<string name="PREF_SOUND_EFFECT_SUMMARY_OFF">关闭音效。</string>
+	<string name="PREF_SCREEN_FULL">适应屏幕</string>
+	<string name="PREF_SCREEN_FULL_SUMMARY_ON">自动缩放并剪裁图片，以适配全屏。</string>
+	<string name="PREF_SCREEN_FULL_SUMMARY_OFF">仅缩放图片，以适配屏幕。</string>
+	<string name="PREF_DIFFICULTY_TITLE">游戏难度</string>
+	<string name="PREF_DIFFICULTY_SUMMARY">选择一个难度级别</string>
+	<string name="PREF_DIFFICULTY_ENTRY_SUFFIX">块</string>
+	<string name="PREF_DIFFICULTY_DIALOG_TITLE">选择一个难度级别</string>
+	<string name="PREF_ABOUT_CATEGORY_TITLE">关于</string>
+	<string name="PREF_ABOUT_VERSION_SUMMARY">点击获得更多的免费应用程序。</string>
+	<string name="PREF_ABOUT_RATE_TITLE">评价这个游戏</string>
+	<string name="PREF_ABOUT_RATE_SUMMARY">如果您喜欢我们的游戏，请支持新功能的开发给它一个5星评级！</string>
+	<string name="PREF_USERDATA_TITLE">用户数据</string>
+	<string name="PREF_USERDATA_CLEAR_HISTORY_TITLE">清除游戏记录</string>
+	<string name="PREF_USERDATA_CLEAR_HISTORY_SUMMARY">清除全部的用户记录和成绩。</string>
+	<string name="PREF_USERDATA_CLEAR_HISTORY_DIALOG_MSG">您确定要删除所有活动记录和成绩？</string>
+	<string name="PREF_USERDATA_CLEAR_HISTORY_SUCCESSFUL_MSG">所有数据已删除。</string>
+	<string name="PREF_USERDATA_CLEAR_CACHE_TITLE">清空缓存</string>
+	<string name="PREF_USERDATA_CLEAR_CACHE_SUMMARY">清除所有缓存文件和缩略图。</string>
+	<string name="PREF_USERDATA_CLEAR_CACHE_DIALOG_MSG">文档和缩略图缓存将被清除。</string>
+	<string name="PREF_USERDATA_CLEAR_CACHE_SUCCESSFUL_MSG">所有缓存已被清除。</string>
+	<string name="DIALOG_UNINSTALL_OLD_VERSION_TITLE">卸载旧版本</string>
+	<string name="DIALOG_UNINSTALL_OLD_VERSION_MSG">您已经安装了最新版本，请卸载旧版本。</string>
+	<string name="DIALOG_BUTTON_YES">是</string>
+	<string name="DIALOG_BUTTON_NO">否</string>
+	<string name="DIALOG_BUTTON_OK">好的</string>
+	<string name="DIALOG_BUTTON_CANCEL">放弃</string>
+	<string name="DIALOG_BUTTON_CLEAR">清除</string>
+	<string name="DIALOG_BUTTON_UPDATE">现在更新</string>
+	<string name="DIALOG_BUTTON_LATER">暂不更新</string>
+	<string name="DIALOG_BUTTON_EXIT">退出</string>
+	<string name="DIALOG_BUTTON_RATE">评价</string>
+	<string name="DIALOG_BUTTON_MORE_APPS">更多游戏</string>	
+	<string name="notification_download_finished_msg">下载完成，点击安装。</string>
+	<string name="notification_download_error_msg">下载错误，请稍候再试。</string>
+	<!-- Theme activity -->
+	<string name="SKIN_ACTIVITY_SET_SKIN">设置皮肤</string>
+	<string name="SKIN_ACTIVITY_ACTIONBAR_ACCEPT">确认</string>
+</resources>

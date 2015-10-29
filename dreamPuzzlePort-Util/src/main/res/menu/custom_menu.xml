@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:alpha="http://schemas.android.com/apk/res-auto">
+	<group android:id="@+id/custom_menu_group_standard">
+		<item
+			android:id="@+id/actionbar_add"
+			android:orderInCategory="100"
+			alpha:showAsAction="ifRoom"
+			android:icon="@drawable/ic_add_white_48dp"
+			android:title="@string/ACTIONBAR_ADD">
+			<menu>
+				<item
+					android:id="@+id/actionbar_add_batch"
+					android:orderInCategory="101"
+					alpha:showAsAction="ifRoom|withText"
+					android:icon="@drawable/ic_collections_white_48dp"
+					android:title="@string/ACTIONBAR_BATCH"/>
+				<item
+					android:id="@+id/actionbar_add_camera"
+					android:orderInCategory="102"
+					alpha:showAsAction="ifRoom|withText"
+					android:icon="@drawable/ic_photo_camera_white_48dp"
+					android:title="@string/ACTIONBAR_CAMERA"/>
+				<item
+					android:id="@+id/actionbar_add_one"
+					android:orderInCategory="103"
+					alpha:showAsAction="ifRoom|withText"
+					android:icon="@drawable/ic_crop_white_48dp"
+					android:title="@string/ACTIONBAR_MANUALLY"/>
+			</menu>
+		</item>
+	</group>
+	<group android:id="@+id/custom_menu_group_delete_select_all">
+		<item
+			android:id="@+id/actionbar_delete_select_all"
+			android:orderInCategory="100"
+			alpha:showAsAction="ifRoom"
+			android:icon="@drawable/icon_delete_all_on_whiite"
+			android:title="@string/CUSTOM_ACTIONBAR_SELECT_ALL"/>
+		<item
+			android:id="@+id/actionbar_delete_select_all_excute"
+			android:orderInCategory="101"
+			alpha:showAsAction="always"
+			android:icon="@drawable/ic_delete_white_48dp"
+			android:title="@string/ACTIONBAR_DELETE"/>
+	</group>
+	<group android:id="@+id/custom_menu_group_delete_deselect_all">
+		<item
+			android:id="@+id/actionbar_delete_deselect_all"
+			android:orderInCategory="100"
+			alpha:showAsAction="ifRoom"
+			android:icon="@drawable/icon_select_all_off_white"
+			android:title="@string/CUSTOM_ACTIONBAR_DESELECT_ALL"/>
+		<item
+			android:id="@+id/actionbar_delete_deselect_all_excute"
+			android:orderInCategory="101"
+			alpha:showAsAction="always"
+			android:icon="@drawable/ic_delete_white_48dp"
+			android:title="@string/ACTIONBAR_DELETE"/>
+	</group>
+	<group android:id="@+id/custom_menu_group_save">
+		<item
+			android:id="@+id/actionbar_save"
+			android:orderInCategory="100"
+			alpha:showAsAction="ifRoom"
+			android:icon="@drawable/ic_save_white_48dp"
+			android:title="@string/ACTIONBAR_SAVE"/>
+	</group>
+	<group android:id="@+id/custom_menu_group_add_select_all">
+		<item
+			android:id="@+id/actionbar_add_select_all"
+			android:orderInCategory="100"
+			alpha:showAsAction="ifRoom"
+			android:icon="@drawable/icon_select_all_on_white"
+			android:title="@string/CUSTOM_ACTIONBAR_SELECT_ALL"/>
+	</group>
+	<group android:id="@+id/custom_menu_group_add_deselect_all">
+		<item
+			android:id="@+id/actionbar_add_deselect_all"
+			android:orderInCategory="100"
+			alpha:showAsAction="ifRoom"
+			android:icon="@drawable/icon_select_all_off_white"
+			android:title="@string/CUSTOM_ACTIONBAR_DESELECT_ALL"/>
+	</group>
+</menu>

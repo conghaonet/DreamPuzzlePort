@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:alpha="http://schemas.android.com/apk/res-auto">
+	<item
+		android:id="@+id/preview_menu_allrecords"
+		android:orderInCategory="1"
+		alpha:showAsAction="ifRoom"
+		android:icon="@drawable/ic_person_white_48dp"
+		android:title="@string/preview_menu_btn_allrecords"/>
+	<item
+		android:id="@+id/preview_menu_wallpaper"
+		android:orderInCategory="2"
+		alpha:showAsAction="ifRoom"
+		android:icon="@drawable/ic_now_wallpaper_white_48dp"
+		android:title="@string/preview_menu_btn_wallpaper"/>
+	<item
+		android:id="@+id/preview_menu_share"
+		android:orderInCategory="3"
+		alpha:showAsAction="ifRoom"
+		android:icon="@drawable/ic_share_white_48dp"
+		android:title="@string/preview_menu_btn_share"/>
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/morePuzzlesGridItem"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+	<RelativeLayout
+		android:id="@+id/morePuzzlesItemRoot"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		>
+	    <ImageView
+			android:id="@+id/morePuzzlesPackageImg"
+			android:src="@null"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_centerInParent="true"
+			android:scaleType="centerInside"
+			android:contentDescription="@null"
+			/><!-- adjustViewBounds 需配合 maxWidth 或者 maxHeight 使用 -->
+			<!-- 
+			android:scaleType="fitCenter"
+			android:adjustViewBounds="true"	
+			android:maxWidth="256dip"
+			 -->
+		<ImageView
+			android:src="@drawable/icon_update"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/morepuzzlesItemUpdateImg"
+			android:layout_centerInParent="true"
+			android:scaleType="centerInside"
+			android:contentDescription="@null"
+		    />
+			
+		<ProgressBar
+		    android:id="@+id/morepuzzlesItemProgressBar"
+		    style="?android:attr/progressBarStyle"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		    android:indeterminate="false"/>
+		<TextView
+			android:id="@+id/packageNameTxt"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:gravity="center_horizontal"
+		    android:textColor="#000000"
+		    android:background="@drawable/bg_package_name"
+		    android:textSize="12sp"
+		    />	
+	</RelativeLayout>
+</RelativeLayout>

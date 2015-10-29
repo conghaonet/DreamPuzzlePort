@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array translatable="false" name="difficulty_value">
+		<item>2x2</item>
+	    <item>3x2</item>
+	    <item>3x3</item>
+		<item>4x3</item>
+		<item>5x4</item>
+	    <item>6x4</item>
+	    <item>6x5</item>
+	    <item>7x5</item>
+		<item>7x6</item>
+		<item>8x6</item>
+		<item>8x7</item>
+	    <item>9x7</item>
+	    <item>9x8</item>
+	</string-array>
+</resources>

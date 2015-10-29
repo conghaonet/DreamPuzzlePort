@@ -1,0 +1,17 @@
+<resources>
+    <integer name="pics_grid_columns">3</integer>
+    <integer name="custom_folder_grid_columns">2</integer>
+	<integer name="main_buttons_layout_weight">17</integer>
+
+	<integer name="fragment_animation_duration">800</integer>
+	<!--
+
+	-->
+	<integer name="puzzle_piece_auto_move_duration">3000</integer>
+	<integer name="puzzle_piece_move_unit_duration">500</integer>
+	<integer name="puzzle_piece_move_min_duration">1000</integer>
+	<integer name="puzzle_piece_move_max_duration">1500</integer>
+	<integer name="puzzle_full_image_duration">3000</integer>
+	<integer name="puzzle_freeze_ui_after_finished">2000</integer>
+	<integer name="puzzle_correct_promotion_duration">1000</integer>
+</resources>

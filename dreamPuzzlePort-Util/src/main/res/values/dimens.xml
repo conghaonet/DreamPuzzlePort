@@ -1,0 +1,13 @@
+<resources>
+    
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- The default gap between components in a layout. -->
+	<dimen name="default_gap">16dip</dimen>
+
+	<dimen name="main_buttons_text_size">20sp</dimen>
+	<dimen name="main_buttons_height">45dp</dimen>
+	<dimen name="main_buttons_layout_padding_bottom">50dp</dimen>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/newGameGridItem"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>    
+	<RelativeLayout
+		android:id="@+id/newGameItemRoot"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		>
+	   	<ImageView
+			android:id="@+id/newgameItemPackageImg"
+			android:src="@null"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_centerInParent="true"
+			android:scaleType="fitCenter"
+			/><!-- adjustViewBounds 需配合 maxWidth 或者 maxHeight 使用 -->
+		<TextView
+		    android:id="@+id/newgameItemRemindTxt"
+			android:layout_height="25dp"
+			android:layout_width="25dp"
+			android:background="@drawable/bg_remind"
+			android:text="98"
+			android:textColor="#FFFFFF"
+			android:gravity="center"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+		    />
+		<ImageView
+			android:id="@+id/newgameItemScheduleImg"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:padding="1dip"
+			android:scaleType="centerInside"
+			android:src="@drawable/icon_schedule"
+		    />
+		<ProgressBar
+		    android:id="@+id/newgameItemIconProgressBar"
+		    style="?android:attr/progressBarStyle"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		    android:indeterminate="false"/>
+		<ProgressBar android:id="@+id/newgameItemDownloadProgressBar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_alignParentBottom="true"
+			/>			
+	</RelativeLayout>
+</RelativeLayout>

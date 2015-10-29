@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="finished_layout_text">
+	    <item name="android:textSize">35sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+    <style name="records_layout_text">
+		<item name="android:textSize">30sp</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	</style>
+	<style name="records_layout_header_text">
+		<item name="android:textSize">35sp</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	</style>
+	<style name="records_layout_norecords_text">
+		<item name="android:textSize">60sp</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	</style>
+</resources>

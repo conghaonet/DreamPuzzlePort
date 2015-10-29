@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="finished_layout_text">
+	    <item name="android:textSize">20sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+	<style name="records_layout_text">
+		<item name="android:textSize">15sp</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	</style>
+	<style name="records_layout_header_text">
+		<item name="android:textSize">18sp</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	</style>
+	<style name="records_layout_norecords_text">
+		<item name="android:textSize">30sp</item>
+	    <item name="android:textColor">#FFFFFF</item>
+	</style>
+	<style name="NotificationText" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+	<style name="NotificationTitle" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+	<!--
+	<style name="NotificationText">
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+	</style> 
+    <style name="NotificationTitle">
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+		<item name="android:textStyle">bold</item>
+    </style>
+    -->
+</resources>

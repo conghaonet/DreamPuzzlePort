@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:alpha="http://schemas.android.com/apk/res-auto">
+	<item
+		android:id="@+id/skin_menu_accept"
+		android:orderInCategory="1"
+		alpha:showAsAction="ifRoom"
+		android:icon="@drawable/ic_done_white_48dp"
+		android:title="@string/SKIN_ACTIVITY_ACTIONBAR_ACCEPT"/>
+
+</menu>
