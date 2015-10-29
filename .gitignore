@@ -1,3 +1,7 @@
+# Added by Conghao
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
 /dreamPuzzlePort_*
 
 # Built application files
